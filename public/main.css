@@ -1,5 +1,6 @@
+/*deep blue #1a1b2c*/
 html{
-    background: #1a1b2c;
+    background: #000;
 }
 
 main{
@@ -7,16 +8,39 @@ main{
     display: grid;
     min-height: 90vh;
 }
+#coords-view{
+    color: darkslateblue;
+    min-width: 300px;
+    height: 25px;
+}
 .center{
     place-self: center;
-    color: steelblue;
-    width: 200px;
-    height: 25px;
-    background: #000;
-    align-content: center;
     display: flex;
     align-content: center;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    position: relative;
+}
+
+#fullscreen{
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+#fullscreen-btn{
+    position: absolute ;
+    right: 0;
+    bottom: 25px;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.clock {
+    color: darkgrey;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: xxx-large;
+    font-family: Arial;
 }

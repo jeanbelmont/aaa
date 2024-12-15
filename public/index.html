@@ -14,10 +14,26 @@
 <body>
 <main>
     <span class="center" id="coords-view"> READY </span>
+    <span class="center">
+<!--        <div id="fullscreen" class="clock">`${}`</div>-->
+    <video id="fullscreen" width="360" height="640" autoplay muted loop controls>
+        <source src="goldfish.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+
+    </video>
+<!--    <span id="fullscreen-btn">full screen </span>-->
+    </span>
+
 </main>
 <script type="module" src="./main.js"></script>
 <script type="module">
     import './sensors/navigator.js'
+    // import './js/video-fullscreen-lock.js'
+    // const clockDisplay = document.getElementById('fullscreen');
+	// clockDisplay.innerText = new Date().toLocaleTimeString([], {timeStyle: 'short'})
+	// const clock =setInterval(() => {
+	// 	clockDisplay.innerText = new Date().toLocaleTimeString([],{timeStyle: 'short'})
+	// }, 1000*60)
 
 </script>
 </body>
