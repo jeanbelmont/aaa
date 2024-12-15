@@ -1,0 +1,22 @@
+html{
+    background: #1a1b2c;
+}
+
+main{
+    position: relative;
+    display: grid;
+    min-height: 90vh;
+}
+.center{
+    place-self: center;
+    color: steelblue;
+    width: 200px;
+    height: 25px;
+    background: #000;
+    align-content: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}

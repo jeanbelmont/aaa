@@ -1,0 +1,19 @@
+{
+  "name": "gps-tracker",
+  "version": "0.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --env-file .env --watch app.js",
+    "setup": "mkdir Controllers Views Routes Models middleware utils config public && touch app.js .env"
+  },
+  "keywords": [],
+  "author": "Juan Jose Cruz Ortiz (https://jjco.dev/)",
+  "license": "GPL",
+  "description": "tracking vehicle location",
+  "dependencies": {
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "GPS location tracker",
+  "short_name": "gps tracker",
+  "start_url": "/index.html",
+  "scope": ".",
+  "display": "fullscreen",
+  "background_color": "#1a1b2c",
+  "theme_color": "#000000",
+  "description": "track your device",
+  "dir": "ltr",
+  "lang": "es-MX",
+  "orientation": "portrait-primary",
+  "icons": [
+  {
+    "src": "/location_icon.png",
+    "type": "image/png",
+    "sizes": "512x512",
+    "purpose": "any"
+  }],
+  "screenshots" : [
+    {
+      "src": "/screenshot_desktop.png",
+      "sizes": "1280x801",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot_mobile.png",
+      "sizes": "640x1138",
+      "type": "image/png"
+    }
+  ]
+}
